@@ -1,4 +1,8 @@
 Blacktie::Application.routes.draw do
+  get "user_pages/home"
+
+  get "user_pages/about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
