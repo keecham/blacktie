@@ -1,5 +1,8 @@
 Blacktie::Application.routes.draw do
+  root :to => 'user_pages#home'
+
   get "user_pages/home"
+
 
   get "user_pages/about"
 
